@@ -8,11 +8,11 @@ const skills = [
     img: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3260195/htm-icon-md.png",
   },
   { heading: "Css", text: "With a deep understanding of CSS, I have the expertise to create visually engaging, responsive, and user-friendly web designs.", img: "" },
-  { heading: "JavaScript", text: "I am proficient in JavaScript, enabling me to create interactive and dynamic user experiences on the web. With a focus on clean and efficient code, I can handle a variety of tasks from DOM manipulation to API integration", img: "" },
-  { heading: "React.js", text: "I have extensive experience in building high-performance, scalable, and maintainable web applications using React.js. With a strong grasp of React’s component-based architecture, I create dynamic and responsive user interfaces while adhering to best practices for code efficiency and reusability.", img: "" },
-  { heading: "React Native", text: "hello", img: "" },
-  { heading: "Node.js", text: "hello", img: "" },
-  { heading: "PostgerSQL", text: "hello", img: "" },
+  { heading: "JavaScript", text: "I am proficient in JavaScript, enabling me to create interactive and dynamic user experiences on the web.", img: "" },
+  { heading: "React.js", text: "I have extensive experience in building high-performance, scalable, and maintainable web applications using React.js.", img: "" },
+  { heading: "React Native", text: "I am skilled in developing cross-platform mobile applications using React Native, leveraging the power of JavaScript", img: "" },
+  { heading: "Node.js", text: "I am proficient in building scalable and efficient server-side applications using Node.js. With a focus on high-performance back-end development", img: "" },
+  { heading: "PostgerSQL", text: " have extensive experience working with PostgreSQL, a powerful open-source relational database system", img: "" },
 ];
 
 const Skills = () => {
