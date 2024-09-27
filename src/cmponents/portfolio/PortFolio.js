@@ -5,12 +5,44 @@ import work2 from "../../assets/work-2.png";
 import work3 from "../../assets/work-3.png";
 
 const projects = [
-  { name: "SOGOCRM", description: "This App is about Providing QR Code solutions, URL Shortner,Creating Whatsapp Campaigns ,Creating Email Campaigns,Payment Integration with Razorpay", image: work1,url:"https://gosol.ink/" },
-  { name: "Project 2", description: "Description for Project 2", image: work2 },
-  { name: "Project 3", description: "Description for Project 3", image: work3 },
-  { name: "Project 4", description: "Description for Project 4", image: work1 },
-  { name: "Project 5", description: "Description for Project 5", image: work2 },
-  { name: "Project 6", description: "Description for Project 6", image: work3 },
+  {
+    name: "SOGOCRM",
+    description:
+      "This App is about Providing QR Code solutions, URL Shortner,Creating Whatsapp Campaigns ,Creating Email Campaigns,Payment Integration with Razorpay",
+    image: work1,
+    url: "https://gosol.ink/",
+  },
+  {
+    name: "SOGO-CLIENT",
+    description:
+      "This is the e-commerce application for distributors and retailers where both can place orders.",
+    image: work2,
+    url: "http://live.thesogo.com/",
+  },
+  {
+    name: "CHATME",
+    description:
+      "Basic Chat Application where user can perform activities like sending text messages, images , creating group , voice call , add profile picture,edit profile etc",
+    image: work3,
+  },
+  {
+    name: "SOGO-MOBILE-APP",
+    description:
+      "This Mobile App is based on React Native , Expo it is e-commerce type application for distributors.",
+    image: work3,
+  },
+  {
+    name: "BOGO-MOBILE-APP",
+    description:
+      "This Mobile App is based on React Native , Expo it is e-commerce type application for retailers",
+    image: work1,
+  },
+  {
+    name: "SOGO-API",
+    description:
+      "This is based on Node js and Express this is Backend for the ui of SOGOCRM ,SOGOClIENT ,SOGO MOBILE APP and BOGO MOBILE APP",
+    image: work2,
+  },
 ];
 
 const PortFolio = () => {

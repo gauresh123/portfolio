@@ -34,6 +34,8 @@
 }
 .name{
     color: yellow;
+    font-size: 1.75rem;
+    background: black;
 }
 .introparagraph{
     font-size: medium;

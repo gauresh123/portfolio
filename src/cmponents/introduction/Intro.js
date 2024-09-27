@@ -7,7 +7,7 @@ const Intro = () => {
     <section id='intro'>
         <div className="introcontent">
             <span className="hello">Hello,</span>
-            <span className="introduction">I'm <span className='name'>Gauresh</span><br />Full Stack Developer</span>
+            <span className="introduction">I'm<span className='name'>Gauresh</span><br />Full Stack Developer</span>
             <p className="introparagraph">Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Sed porro iste provident.</p>
         <Link><button className='btn'>Hire me</button></Link>
 
