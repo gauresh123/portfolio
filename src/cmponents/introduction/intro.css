@@ -29,13 +29,10 @@
 }
 
 .hello{
-    font-size: 1.75rem;
-    font-weight: 300;
+    font-size:1.75rem
 }
 .name{
-    color: yellow;
-    font-size: 1.75rem;
-    background: black;
+    
 }
 .introparagraph{
     font-size: medium;

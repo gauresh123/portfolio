@@ -24,6 +24,7 @@ const projects = [
     description:
       "Basic Chat Application where user can perform activities like sending text messages, images , creating group , voice call , add profile picture,edit profile etc",
     image: work3,
+    url:"https://chat-app-ui-hs4h.onrender.com/"
   },
   {
     name: "SOGO-MOBILE-APP",
@@ -50,10 +51,8 @@ const PortFolio = () => {
     <section id="work">
       <span className="workTitle">My Portfolio</span>
       <span className="workDesc">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsam
-        accusantium amet vitae, et obcaecati voluptates ab, libero nulla
-        consequuntur maiores? Ipsam, aperiam natus in laudantium eligendi
-        similique nam fugiat.
+        I specialize in building efficient, scalable solutions, focusing on
+        seamless integration between front-end and back-end technologies.
       </span>
       <div className="workimgs">
         {projects.map((project, index) => (
