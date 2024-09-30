@@ -31,8 +31,8 @@
 .hello{
     font-size:1.75rem
 }
-.name{
-    
+#name{
+    color: yellow;
 }
 .introparagraph{
     font-size: medium;

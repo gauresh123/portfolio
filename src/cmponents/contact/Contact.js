@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-        <h1 className="contactTitle">Contact Me</h1>
+        <span className="contactTitle">Contact Me</span>
         <span className="contactDesc">Please fill out the form below to disscuss any work opportunities.</span>
         <form action="" className="contactForm" ref={form} onSubmit={sendEmail}>
         {/* <input type="text" className="name" placeholder='Your Name'/> */}

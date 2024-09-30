@@ -1,41 +1,44 @@
 import React from "react";
-import "./skills.css";
+import "./skills.css"
+import html from "../../assets/html.png"
+import css from "../../assets/css.png"
+import js from "../../assets/js.png"
+import react from "../../assets/react.png"
+import postgress from '../../assets/postgresql.png'
+import node from "../../assets/node.png"
+
 
 const skills = [
   {
     heading: "Html",
     text: "I have a strong foundation in HTML, the core language for structuring content on the web.",
-    img: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3260195/htm-icon-md.png",
-  },
+    img: html },
   {
     heading: "Css",
     text: "With a deep understanding of CSS, I have the expertise to create visually engaging, responsive, and user-friendly web designs.",
-    img: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3411890/css-icon-md.png",
+    img: css,
   },
   {
     heading: "JavaScript",
     text: "I am proficient in JavaScript, enabling me to create interactive and dynamic user experiences on the web.",
-    img: "https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png",
-  },
+    img: js },
   {
     heading: "React.js",
     text: "I have extensive experience in building high-performance, scalable, and maintainable web applications using React.js.",
-    img: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3236966/reactjs-icon-md.png",
-  },
+    img: react},
   {
     heading: "React Native",
     text: "I am skilled in developing cross-platform mobile applications using React Native, leveraging the power of JavaScript",
-    img: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3236966/reactjs-icon-md.png",
+    img: react,
   },
   {
     heading: "Node.js",
     text: "I am proficient in building scalable and efficient server-side applications using Node.js. With a focus on high-performance back-end development",
-    img: "https://th.bing.com/th/id/R.4b12dd41635001837f4fe5f02de9a6eb?rik=y7BKtyI8b9gs9A&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fnodejs-logo-png-create-a-model-to-persist-data-in-a-node-js-loopback-api-from-beeman-nl-on-eggheadio-1200.png&ehk=6QNKnM%2f%2bkMi12S13FW11YvhIrCCwsXSuPKmnrw514os%3d&risl=&pid=ImgRaw&r=0",
-  },
+    img:node },
   {
     heading: "PostgerSQL",
     text: " have extensive experience working with PostgreSQL, a powerful open-source relational database system",
-    img: "https://static-00.iconduck.com/assets.00/postgresql-icon-2048x2026-2lkx6hk5.png",
+    img: postgress,
   },
 ];
 
