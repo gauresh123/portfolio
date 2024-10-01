@@ -3,6 +3,7 @@ import "./contact.css";
 import Linkedin from "../../assets/linkedin.jpg";
 import Insta from "../../assets/insta.jpg";
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
 
 
@@ -19,10 +20,10 @@ const Contact = () => {
       .then(
         () => {
           form.current.reset();
-          console.log('SUCCESS!');
+          toast.success("Your message sent successfully")
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          toast.error(error.text)
         },
       );
   };
